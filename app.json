@@ -1,0 +1,39 @@
+{
+    "version": "",
+    "env": "",
+    "pages": ["pages/home/index", "pages/shoppingcart/index", "pages/personal/index"],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Easy-Shop",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#515151",
+        "selectedColor": "#DA0015",
+        "borderStyle": "white",
+        "backgroundColor": "white",
+        "list": [
+            {
+                "pagePath": "pages/home/index",
+                "iconPath": "/base/assets/home-unselected.png",
+                "selectedIconPath": "/base/assets/home-selected.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/shoppingcart/index",
+                "iconPath": "/base/assets/cart-unselected.png",
+                "selectedIconPath": "/base/assets/cart-selected.png",
+                "text": "购物车"
+            },
+            {
+                "pagePath": "pages/personal/index",
+                "iconPath": "/base/assets/person-unselected.png",
+                "selectedIconPath": "/base/assets/person-selected.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
